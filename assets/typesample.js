@@ -795,7 +795,8 @@ function main(){
 
 		var displayName = f.fontInfo.fontDisplayName;
 
-		var linkAndName = searchTypewolf(f.fontInfo);
+		// var linkAndName = searchTypewolf(f.fontInfo);
+		var linkAndName = -1;
 
 		if (linkAndName != -1){
 			displayName = linkAndName[0];
@@ -1090,7 +1091,8 @@ function displaytypesample(fontInfo, fontStyle){
 
 
 
-		var linkAndName = searchTypewolf(fontInfo);
+		// var linkAndName = searchTypewolf(fontInfo);
+		var linkAndName = -1;
 
 
 		var fontName;
@@ -1710,7 +1712,8 @@ function initImageSave() {
 
 		var fontName =  fontInfoGlobal.fontDisplayName;
 
-		var linkAndName = searchTypewolf(fontInfoGlobal);
+		// var linkAndName = searchTypewolf(fontInfoGlobal);
+	    	var linkAndName = -1;
 
 		if (linkAndName != -1){
 			fontName = linkAndName[0];
