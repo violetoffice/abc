@@ -944,7 +944,8 @@ function identifyFont(elem){
 		var fontUsed = whatFontUsed(fontStyle.fontfamily, fontStyle.fontstyle);
 		var fontInfo = getFontInfo(fontUsed);
 
-		var popularity = howPopularIsFont(fontInfo.fontDisplayName);
+		// var popularity = howPopularIsFont(fontInfo.fontDisplayName);
+		var popularity = 1;
 
 
 		fontInfo.fontPopularity = popularity;
