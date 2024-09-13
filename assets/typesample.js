@@ -1,6 +1,8 @@
 // bookmarklet example:
 // javascript:void((function(d)%7Bvar%20e=d.createElement('script');e.setAttribute('type','text/javascript');e.setAttribute('charset','UTF-8');e.setAttribute('src','//www.typesample.com/assets/typesample.js?r='+Math.random()*99999999);d.body.appendChild(e)%7D)(document));
 
+// javascript:void((function(d)%257Bvar%20e=d.createElement('script');e.setAttribute('type','text/javascript');e.setAttribute('charset','UTF-8');e.setAttribute('src','//violetoffice.github.io/abc/assets/typesample.js?r='+Math.random()*99999999);d.body.appendChild(e)%257D)(document));
+
 var path = "https://violetoffice.github.io/abc/assets/";  // OR change this path where this javascript file lives
 
 //Type Sample code by Justin Van Slembrouck 2013-2021
